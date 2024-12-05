@@ -1,0 +1,47 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega328-7" mainComp="false" Show_id="true" Show_Val="false" Pos="36,-212" rotation="0" hflip="-1" vflip="1" label="mega328-7" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="D:/2025-1/MicroControladores/Actividad_2/Actividad_2/Debug/Actividad_2.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" MainMcu="false" SerialMon="-1" />
+
+<item itemtype="Push" CircId="Push-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-104,-124" rotation="0" hflip="1" vflip="1" label="Push-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,-168" rotation="0" hflip="1" vflip="1" label="Push-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-208" rotation="0" hflip="1" vflip="1" label="Push-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Battery" CircId="Battery-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-168" rotation="90" hflip="1" vflip="1" label="Battery-13" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-116" rotation="0" hflip="1" vflip="1" label="Ground-16" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Oscope" CircId="Oscope-17" mainComp="false" Show_id="false" Show_Val="false" Pos="52,-12" rotation="0" hflip="1" vflip="1" label="Oscope-17" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Node" CircId="Node-14" mainComp="false" Pos="-148,-208" />
+
+<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-148,-168" />
+
+<item itemtype="Node" CircId="Node-19" mainComp="false" Pos="-244,-140" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="mega328-7-PORTC0" endpinid="Push-9-switch0pinN" pointList="-4,-164,-76,-164,-76,-124,-88,-124" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="mega328-7-PORTC1" endpinid="Push-10-switch0pinN" pointList="-4,-172,-84,-172,-84,-168" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="mega328-7-PORTC2" endpinid="Push-11-switch0pinN" pointList="-4,-180,-68,-180,-68,-208,-80,-208" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Battery-13-lPin" endpinid="Node-14-0" pointList="-244,-184,-244,-208,-148,-208" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Node-14-2" endpinid="Push-11-pinP0" pointList="-148,-208,-112,-208" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Push-9-pinP0" endpinid="Node-15-1" pointList="-120,-124,-148,-124,-148,-168" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Push-10-pinP0" endpinid="Node-15-0" pointList="-116,-168,-148,-168" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Node-15-2" endpinid="Node-14-1" pointList="-148,-168,-148,-208" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Oscope-17-Pin0" endpinid="mega328-7-PORTB1" pointList="-36,-60,-36,-100,-4,-100" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Oscope-17-PinG" endpinid="Node-19-1" pointList="-36,52,-196,52,-196,-140,-244,-140" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Ground-16-Gnd" endpinid="Node-19-0" pointList="-244,-132,-244,-140" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Node-19-2" endpinid="Battery-13-rPin" pointList="-244,-140,-244,-152" />
+
+</circuit>

@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\Debug\Actividad_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Actividad_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Actividad_2.map</FILE>
+  <FILE>Actividad_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\main.asm</FILE><LINE>18</LINE></RESET>
+  <MAIN><FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\main.asm</FILE><LINE>38</LINE></MAIN>
+  <SELECT_FREQ><FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\main.asm</FILE><LINE>43</LINE></SELECT_FREQ>
+  <OCR_VALUES><FILE>D:\2025-1\MicroControladores\Actividad_2\Actividad_2\main.asm</FILE><LINE>61</LINE></OCR_VALUES>
+ </LABELS>
+</ASSEMBLER_INFO>
